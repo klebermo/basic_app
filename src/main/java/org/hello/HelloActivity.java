@@ -16,13 +16,6 @@ public class HelloActivity extends Activity {
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
-        TextView textView = (TextView) findViewById(R.id.text_view);
-        textView.setText("Hello world!");
-    }
-
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();

@@ -47,18 +47,4 @@ public class HelloActivity extends Activity {
       //
     }
 
-    public void openTab1() {
-      Tab1Fragment newFragment = new Tab1Fragment();
-      Bundle args = new Bundle();
-      args.putString("tab", "1");
-      newFragment.setArguments(args);
-
-      FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
-      transaction.replace(R.id.fragment_container, newFragment);
-      transaction.addToBackStack(null);
-
-      transaction.commit();
-    }
-
 }

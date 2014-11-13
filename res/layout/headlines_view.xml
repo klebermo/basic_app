@@ -8,34 +8,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/button_icon"
-        android:text="@string/button1" />
+        android:text="@string/button1"
+        android:onClick="btn1_click" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/button_icon"
-        android:text="@string/button2" />
+        android:text="@string/button2"
+        android:onClick="btn2_click" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/button_icon"
-        android:text="@string/button3" />
+        android:text="@string/button3"
+        android:onClick="btn3_click" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/button_icon"
-        android:text="@string/button4" />
+        android:text="@string/button4"
+        android:onClick="btn4_click" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/button_icon"
-        android:text="@string/button5" />
+        android:text="@string/button5"
+        android:onClick="btn5_click" />
 
 </LinearLayout>
